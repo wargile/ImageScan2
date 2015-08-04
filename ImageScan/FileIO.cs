@@ -42,8 +42,8 @@ namespace ImageScan
         /// <summary>
         /// Return all files in directory as generic list of strings filtered by filtervalue
         /// </summary>
-        /// <param name="sDir"></param>
-        /// <param name="files"></param>
+        /// <param name="directory"></param>
+        /// <param name="filter"></param>
         public static List<string> GetFilteredFilesInDirecory(string directory, string filter)
         {
             List<string> files = new List<string>();
