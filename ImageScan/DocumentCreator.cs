@@ -202,8 +202,6 @@ namespace ImageScan
 
         #endregion
 
-        #region Get File and Catalog Info
-
         #region GetDocumentBaseName
 
         /// <summary>
@@ -315,8 +313,6 @@ namespace ImageScan
 
             return content;
         }
-
-        #endregion
 
         #endregion
 
